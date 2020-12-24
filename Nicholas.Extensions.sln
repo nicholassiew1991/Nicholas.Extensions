@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9DB4E129-962D-4745-AE6A-927290D87D91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C0BCC2E4-46E2-4BE0-8173-0E23478B7F51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{A5851DBC-31E3-4675-88FD-A898467C5A5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nicholas.Extensions.DependencyInjection.ServiceModule", "src\Nicholas.Extensions.DependencyInjection.ServiceModule\Nicholas.Extensions.DependencyInjection.ServiceModule.csproj", "{828E1460-2B3E-4102-A028-F921DD5C594E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A5851DBC-31E3-4675-88FD-A898467C5A5C} = {9DB4E129-962D-4745-AE6A-927290D87D91}
+		{828E1460-2B3E-4102-A028-F921DD5C594E} = {A5851DBC-31E3-4675-88FD-A898467C5A5C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{828E1460-2B3E-4102-A028-F921DD5C594E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828E1460-2B3E-4102-A028-F921DD5C594E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828E1460-2B3E-4102-A028-F921DD5C594E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828E1460-2B3E-4102-A028-F921DD5C594E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

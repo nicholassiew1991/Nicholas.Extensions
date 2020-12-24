@@ -1,0 +1,8 @@
+# IDE Directories
+.idea/
+.vs/
+.vscode/
+
+# bin and obj
+**/bin/
+**/obj/
